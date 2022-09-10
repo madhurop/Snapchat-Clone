@@ -1,0 +1,224 @@
+body {
+    font-size: 15pt;
+}
+.maindiv{
+  margin-left: -7.5px;
+  width: 390px;
+  height:100%;
+  background-color:white;
+}
+.nav-icon{
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  
+}
+.nav-front{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+#acic{
+  margin-left: -10px;
+}
+#searchic{
+  margin-left: -30px;
+}
+#nav-chat{
+  margin-left: 0px;
+  margin-top: 10px;
+}
+#addfrd{
+  margin-right: -30px;
+}
+#tdot{
+  margin-right: -10px;
+}
+.pro-ac{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-left: 10px;
+}
+.chat-name{
+  position: absolute;
+  font-weight: bold;
+  font-size: 15pt;
+  margin-top: -50px;
+  margin-left: 80px;
+}
+ .all-data{
+   position: absolute;
+   margin-top: -28px;
+   margin-left: 80px;
+   font-size: 10pt;
+   font-family: 'Poppins', sans-serif;
+ }
+ .newsnap{
+   color: red;
+ }
+ .time-ago{
+   color: gray;
+ }
+ .ver-line{
+   margin-top: 8px;
+   float: right;
+   
+   height: 35px;
+   width: 0px;
+   border: 1px solid lightgray;
+ }
+ .cht-pc{
+   width: 50px;
+   height: 50px;
+   float: right;
+   
+ }
+ .hr{
+  background-color: lightgray;
+   width: 375px;
+   margin-top: 0px;
+   
+ }
+ 
+   
+.chat-nm{
+  height: 40px;
+   font-weight: bold;
+   color: black;
+   text-align: center;
+   padding: 10px 20px 10px 20px;
+   font-size: 16pt;
+   margin-top: -50px;
+   margin-left: -150px;
+   
+ }
+ #chat-prf{
+   margin-left: 10px;
+ }
+ #vcall{
+   float: right;
+   width: 25%;
+   margin-top: -75px;
+ }
+ .line{
+   margin-top: -30px;
+background-color: lightgray;
+ }
+ .inpcam{
+   margin-top: 350px;
+   width: 380px;
+   height: 40px;
+   border: 1px solid gray;
+   border-radius: 25px;
+   background-color: lightgray;
+   outline: none;
+ }
+
+.text-input{
+  border: 1px solid lightgray;
+  width:250px;
+  height: 32.5px;
+  background-color: white;
+  outline: none;
+  border-radius: 25px;
+  margin-top: 2px;
+  margin-left: 40px;
+  
+}
+.send-img{
+  width: 33px;
+  height: 33px;
+float: right;
+margin-right: 10px;
+}
+
+/* PROFILE PAGE CSS */
+
+
+#prof_div{
+  margin-left: -7.5px;
+  margin-top: -7.5px;
+  width: 390px;
+  height:100%;
+  position: relative;
+}
+
+.prof_pic{
+  border: 1px solid black;
+  width: 390px;
+  height: 250px;
+ 
+  
+  
+  border-radius: 30px 30px 0px 0px;
+  background-image: url("https://i.postimg.cc/6qzrGZzX/prof-pic.jpg") ;
+  background-size: 100%;
+}
+.setting_icon{
+  float: right;
+  margin-right: 15px ;
+  margin-top: 10px;
+  width :8% ;
+  
+}
+.prof_share{
+  float: right;
+  margin-right : 30px ;
+  margin-top : 10px ;
+  width: 8%;
+}
+.prof_back{
+  width: 10%;
+  margin-left: 10px ;
+  margin-top : 10px;
+}
+.prof_pose{
+  float: right;
+  margin-top : 200px;
+  width: 8% ;
+  margin-right: -100px;
+  
+}
+.prof_info{
+  border: solid 1px black;
+  width: 390px ;
+  margin-left:0px;
+  
+  background: linear-gradient(whitesmoke,white)
+  
+  
+}
+.prof_qr{
+  width: 16%;
+  margin-top: 20px;
+  border-radius:15px;
+  margin-left: 10px;
+  box-shadow: 2px 2px 2px 2px lightgrey;
+}
+.prof_name{
+  
+  float: right;
+  margin-top: 25px;
+  margin-right:168px;
+}
+.prof_id{
+  position: absolute;
+  margin-left : 85px;
+  margin-top: -30px;
+  font-size: 10pt;
+  color : grey;
+  font-weight: bold;
+}
+.snap_score,.snap_rashi{
+  margin-left:10px;
+  border-radius:10px;
+  margin-top: 5px;
+  background: linear-gradient(whitesmoke,white);
+  border : solid 1px lightgray;
+  box-shadow: 1px 1px lightgray;
+}
+.snap_rashi{
+  color: darkblue;
+}
+
